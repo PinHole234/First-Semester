@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+#define VERSION 1
+
+int main() {
+
+char section = 'B';
+int needed = VERSION
+printf("Version: %d, Section: %c", needed, section);
+return 0;
+}
