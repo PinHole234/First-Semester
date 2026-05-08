@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-#define MAX_LIVES 3;
+#define MAX_LIVES 3
 #define CHEATS_ENABLED
 
 int main() {
-    char rank = "S"; 
+    char rank = 'S'; 
 
     printf("Player Rank: %c\n", rank);
     printf("Max Lives: %d\n", MAX_LIVES);
 
 #ifdef CHEATS_ENABLED
     printf("Cheats are ON!\n");
-
+#endif
     return 0;
 }
