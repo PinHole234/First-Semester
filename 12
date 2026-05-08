@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PREMIUM_USER
+
+int main() {
+
+#ifdef PREMIUM_USER {printf("Welcome to Premium!";)}
+#else {printf("Please upgrade your account.";)}
+#endif
+
+
+
+return 0;
+}
