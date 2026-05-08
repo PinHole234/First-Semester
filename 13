@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define PLAYER_SYMBOL 'X'
+
+int main() {
+
+#ifdef MULTIPLAYER
+printf("Symbol: %c, Mode: Multiplayer", PLAYER_SYMBOL);
+#else
+printf("Symbol: %c, Mode: Solo", PLAYER_SYMBOL);
+#endif
+
+
+return 0;
+}
